@@ -1,0 +1,57 @@
+body {
+	background-color: #222;
+	color: #FFC;
+	font-family: verdana;
+}
+
+h1 {
+	text-align: center;
+	color: #222;
+	text-shadow: 0px 0px 2px #FF69B4;
+	font-size: 75px
+}
+
+.par1 {
+	text-transform: lowercase;
+	color: #00ff00;
+}
+
+.par2 {
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: red;
+}
+
+.par3 {
+	font-family: 'courier new';
+	color: yellow;
+}
+
+.par4 {
+	text-decoration: underline;
+	color: #00FFFF;
+}
+
+.par5 {
+	text-shadow: 3px 2px red;
+}
+
+.par6 {
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: white;
+	opacity: 0.4;
+	font: 'Bitter';
+}
+
+.par7 {
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #ADFF2F;
+}
+
+.par8 {
+	font-size: 0.85em;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: orange;
+}

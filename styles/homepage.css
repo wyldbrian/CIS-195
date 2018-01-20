@@ -1,0 +1,51 @@
+body {
+	background-color: #222222;
+	color: #BBCDE5;
+	font-family: verdana;
+}
+
+a {
+	color: #1C5D99;
+	font-weight: bold;
+}
+
+header {
+	background-color: #639FAB;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+h1, h2 {
+	color: #FFFFFF;
+	font-weight: bold;
+	letter-spacing: 6px;
+	clear: both;
+}
+
+h1 span {
+	color: #F6D8AE;
+	letter-spacing: 2px;
+}
+
+figure {
+	float: right;
+	border: 6px solid #000;
+	border-radius: 50%;
+}
+
+figure img {
+	border-radius: 50%;
+	padding: 10px;
+}
+
+p {
+	line-height: 1.5em;
+	margin-left: 1.5em;
+}
+
+p img {
+	border: 10px solid #000;
+	width: 50%;
+	display: block;
+	margin: 20px 0;
+}
