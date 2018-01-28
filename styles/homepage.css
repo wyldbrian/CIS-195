@@ -18,7 +18,7 @@ header {
 h1, h2 {
 	color: #FFFFFF;
 	font-weight: bold;
-	letter-spacing: 6px;
+	letter-spacing: 3px;
 	clear: both;
 }
 
@@ -48,4 +48,49 @@ p img {
 	width: 50%;
 	display: block;
 	margin: 20px 0;
+}
+
+#strava {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 100px;
+	margin-bottom: 150px;
+}
+
+/* style different link types */
+
+a:link {
+	color: #99d6ff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #008ae6;
+	font-weight: bold;
+}
+
+a:hover, a:active {
+	color: #008ae6;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* setup a static footer */
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 25px;
+	width: 100%;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+	vertical-align: center;
+	word-spacing: 50px;
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 150%;
 }

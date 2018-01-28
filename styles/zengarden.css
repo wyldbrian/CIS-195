@@ -167,7 +167,6 @@ footer {
 	padding: 5px;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 120%;
-	
 }
 
 /* style all the links */
@@ -188,6 +187,3 @@ a:hover, a:active {
 	font-weight: bold;
 	text-decoration: underline;
 }
-	
-	
-
