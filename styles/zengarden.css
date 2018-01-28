@@ -1,0 +1,193 @@
+/* introduction */
+
+body {
+	background-image: url("../images/zengarden.jpg");
+	background-color: #e6fff5;
+	background-repeat: no-repeat;
+	background-position: right 50px bottom 150px;
+	background-size: 300px 300px;
+	font-family: arial;
+}
+
+header {
+	width: 600px;
+	margin: auto;
+	border: 8px double black;
+	border-radius: 25px;
+	text-align: center;
+	background-color: #ffffb3;
+}
+	
+header h1 {
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;	
+}
+
+header h2 {
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	font-family: 'Orienta', sans-serif;
+}
+
+.summary {
+	background-color: #737373;
+	color: #ffffff;
+	text-align: center;
+	border: 4px solid black;
+	border-radius: 10px;
+	position: absolute;
+	top:0;
+	right:0;
+	height: 100px;
+	width: 400px;
+	margin: 10px;
+	padding: 10px;
+}
+
+/* hit all of the h3s */
+
+h3 {
+	font-variant: small-caps;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 175%;
+}
+
+/* hit all abbr tags */
+
+abbr {
+	border-bottom: 1px solid;
+}
+	
+
+/* building the sidebars */
+
+aside {
+	background-color: #ffffb3;
+	border: 8px double black;
+	border-radius: 25px;
+	margin-right: 10px;
+	margin-top: 250px;
+	position: absolute;
+	padding: 5px;
+	right: 0;
+	top: 0
+}
+
+aside h3 {
+	color: #6E6E6E;
+}
+
+/* manage each div */
+
+.preamble {
+	margin-right: 400px;
+	left: 0;
+	border-radius: 25px;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	border: 2px solid #dd99ff;
+}
+
+.preamble p {
+	font-size: 110%;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+.main.supporting p {
+	font-size: 90%;
+	font-family: cursive;
+}
+
+.explanation {
+	margin-right: 400px;
+	left: 0;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+.participation {
+	margin-right: 400px;
+	left: 0;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+.benefits {
+	margin-right: 400px;
+	left: 0;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+.requirements {
+	margin-right: 400px;
+	margin-bottom: 50px;
+	left: 0;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+
+/* setup the footer */
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 25px;
+	width: 100%;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+	vertical-align: center;
+	word-spacing: 50px;
+	padding: 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	
+}
+
+/* style all the links */
+
+a:link {
+	color: #ff4dff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #cc0066;
+	font-weight: bold;
+}
+
+a:hover, a:active {
+	color: #cc0066;
+	font-weight: bold;
+	text-decoration: underline;
+}
+	
+	
+
