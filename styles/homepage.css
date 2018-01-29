@@ -18,8 +18,8 @@ header {
 h1, h2 {
 	color: #FFFFFF;
 	font-weight: bold;
+	text-shadow: 4px 3px gray;
 	letter-spacing: 3px;
-	clear: both;
 }
 
 h1 span {
@@ -50,10 +50,13 @@ p img {
 	margin: 20px 0;
 }
 
+/* add strava widget */
+
 #strava {
-	margin-top: 350px;
+	text-align: right;
+	margin-top: 100px;
+	margin-bottom: 50px;
 	margin-right: 100px;
-	margin-bottom: 150px;
 }
 
 /* style different link types */
@@ -75,9 +78,9 @@ a:hover, a:active {
 	text-decoration: underline;
 }
 
-/* setup a static footer */
+/* setup a fixed footer */
 
-footer {
+#footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -86,9 +89,28 @@ footer {
 	background-color: #404040;
 	color: white;
 	text-align: center;
-	vertical-align: center;
 	word-spacing: 50px;
 	padding: 10px;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 150%;
+}
+
+/* add some list styling */
+
+#changes {
+	padding-top: 50px;
+	line-height: 1.5em;
+	margin-left: 1.5em;
+	font-family: cursive;
+	font-style: italic;
+	color: white;
+}
+
+#changes h3 {
+	text-shadow: 2px 2px gray;
+	font-size: 120%;
+}
+
+#changes ul {
+	list-style-type: square;
 }
