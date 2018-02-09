@@ -1,0 +1,88 @@
+/* stles for my basic mockup page */
+
+* {
+  margin: 0; padding: 0; border: 0; box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+}
+
+header {
+  min-height: 175px;
+  background-color: #CCC;
+  padding-top: 2em;
+  padding-left: 2em;
+  position: relative;
+}
+
+header .logo {
+  display: block;
+  width: 200px;
+  height: 120px;
+  border: 6px solid black;
+}
+
+header nav {
+  position: absolute;
+  top: 25px; right: 25px;
+}
+
+header nav a {
+  margin-left: 2em;
+  text-decoration: none;
+}
+
+#hero {
+  min-height: 500px;
+  background-color: #FFC;
+  background-image: url(../images/harley.jpg);
+  background-size: cover;
+  background-position: 0 -100px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.calltoaction {
+  padding: 1.5em;
+  background-color: orange;
+  position: absolute; left: 25vw; bottom: 50%;
+}
+
+div#products {
+  width: 250px; height: 550px;
+  position: absolute;
+  top: -35px; right: 10px;
+}
+
+div#products div {
+  width: 130px; height: 130px; border-radius: 50%;
+  background-color: #700;
+  position: absolute;
+}
+
+div#products div:nth-child(1) {
+  top: 25px; left: 5px;
+}
+
+div#products div:nth-child(2) {
+  top: 225px; right: 10px;
+}
+
+div#products div:nth-child(3) {
+  top: 425px; left: 25px;
+}
+
+#promos {
+  min-height: 250px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#promos div {
+  width: 250px; min-height: 220px;
+  border: 10px solid #FFF;
+  flex: 1 1 300px;
+  background-color: #CC3;
+}
