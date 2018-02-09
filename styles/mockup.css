@@ -38,7 +38,7 @@ header nav a {
   background-color: #FFC;
   background-image: url(../images/harley.jpg);
   background-size: cover;
-  background-position: 0 -100px;
+  background-position: 0 25%;
   background-repeat: no-repeat;
   position: relative;
 }
