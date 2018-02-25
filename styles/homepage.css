@@ -105,6 +105,7 @@ a:hover, a:active {
 	font-family: cursive;
 	font-style: italic;
 	color: white;
+	float: left;
 }
 
 #changes h3 {
