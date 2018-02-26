@@ -18,18 +18,102 @@
 #header {
   height: 100px;
   background-color: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+#logo {
+	position: absolute;
+	margin-left: 10%;
+	color: white;
+	height: 120px;
+	width: 240px;
+	line-height: 120px;
+	border: 4px solid red;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.6em;
+	background-color: red;
+}
+
+#main {
+	position: absolute;
+	margin-left: 25%;
+	height: 100px;
+	line-height: 100px;
+	font-weight: bold;
+}
+
+#main a {
+  padding: 0 1.1em;
+  text-decoration: none;
+  font-size: 1.5em;
+	color: white;
+}
+
+#contact {
+	position: absolute;
+	right: 10%;
+	height: 100px;
+	line-height: 100px;
+	font-weight: bold;
+}
+
+#contact a {
+  padding: 0 .8em;
+  text-decoration: none;
+  font-size: 1.5em;
+	color: white;
+}
+
+#job {
+	background-color: red;
 }
 
 #container {
-  height: 1000px;
+  height: 1100px;
   background-color: lightgray;
 }
 
 #graphic {
-  height: 700px;
+  height: 800px;
   width: 70%;
   margin: auto;
   background-color: white;
+	background-image: url(images/field2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#graphic p {
+	font-size: 3.4em;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	position: absolute;
+	left: 10%;
+	bottom: 25%;
+	width: 35%;
+}
+
+#calltoaction {
+  display: block;
+  width: 200px; height: 60px;
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: white;
+  opacity: 0.8;
+  color: blue;
+  line-height: 60px;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
 }
 
 #text {
@@ -37,6 +121,11 @@
   width: 70%;
   margin: auto;
   background-color: darkgray;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.3em;
+	color: black;
+	padding-top: 50px;
 }
 
 </style>
@@ -44,12 +133,29 @@
 <body>
 
   <div id="header">
+		<a id="logo" href="#">Company Logo</a>
+		<nav id="main">
+			<a href="#">Home</a>
+			<a href="#">Company</a>
+			<a href="#">Services</a>
+			<a href="#">Products</a>
+			<a href="#">Contact</a>
+		</nav>
+		<nav id="contact">
+			<a href="#">541.555.5555</a>
+			<a id="job" href="#">Now Hiring</a>
+			<a href="#">FB Logo</a>
+		</nav>
   </div>
 
   <div id="container">
     <div id="graphic">
+			<p>Scroll down to see the fixed header</p>
+			<a href="#" id="calltoaction">BUTTON!!!</a>
     </div>
     <div id="text">
+			<h1>Mission</h1>
+			<p>Some really awesome text!</p>
     </div>
   </div>
 

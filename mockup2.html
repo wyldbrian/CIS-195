@@ -17,12 +17,93 @@
 
 #header1 {
   height: 50px;
+	padding-top: 5px;
   background-color: gray;
+	position: relative;
+}
+
+#tools {
+	height: 50px;
+	padding-top: 10px;
+	margin-left: 20%;
+	text-decoration: none;
+}
+
+#tools a {
+	padding: 0 1.4em;
+  text-decoration: none;
+  font-size: 1.2em;
+	background-color: blue;
+	color: white;
+	border: 2px solid black;
+}
+
+#search {
+	height: 50px;
+	padding-top: 5px;
+	text-decoration: none;
+	position: absolute;
+	right: 20%;
+	top: 5px;
+}
+
+#search a {
+	padding: 0 1.4em;
+  text-decoration: none;
+  font-size: 1.2em;
+	background-color: blue;
+	color: white;
+	border: 2px solid black;
 }
 
 #header2 {
   height: 125px;
   background-color: lightgray;
+	padding-top: 10px;
+	position: relative;
+}
+
+#logo {
+	margin-left: 20%;
+	height: 50px;
+	width: 200px;
+	display: block;
+	border: 2px solid black;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 2.0em;
+	background-color: blue;
+	color: white;
+}
+
+#basic {
+	padding-top: 10px;
+	margin-left: 20%;
+	text-decoration: none;
+}
+
+#basic a {
+  padding: 0 1.4em;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+#contact {
+	position: absolute;
+	top: 10px;
+	right: 20%;
+}
+
+#contact a {
+	height: 50px;
+	line-height: 50px;
+	padding: 0 1.4em;
+  text-decoration: none;
+  font-size: 1.2em;
+	background-color: blue;
+	color: white;
+	border: 2px solid black;
 }
 
 #container1 {
@@ -34,12 +115,52 @@
   width: 60%;
   height: 600px;
   background-color: green;
+	background-image: url(images/field2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
   margin: auto;
+	position: relative;
+}
+
+#graphic p {
+	width: 500px;
+	font-size: 3.4em;
+	font-weight: bolder;
+	color: black;
+	text-align: center;
+	position: absolute;
+	bottom: 200px;
+	left: 100px;
+}
+
+#calltoaction {
+  display: block;
+  width: 200px; height: 60px;
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: white;
+  opacity: 0.8;
+  color: blue;
+  line-height: 60px;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  bottom: 125px;
+  left: 200px;
 }
 
 #container2 {
   background-color: darkgray;
   height: 300px;
+}
+
+#container2 p {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: white;
+	line-height: 300px;
+	text-align: center;
 }
 
 #column1 {
@@ -77,20 +198,53 @@
 
 <body>
   <div id="header1">
+		<nav id="tools">
+			<a href="#">Webmail</a>
+			<a href="#">My Account</a>
+			<a href="#">Contact Us</a>
+		</nav>
+		<nav id="search">
+			<a href="#">Search box....</a>
+			<a href="#">Residential</a>
+			<a href="#">Business</a>
+		</nav>
   </div>
 
   <div id="header2">
+		<a id="logo" href="#">Logo</a>
+		<nav id="basic">
+			<a href="#">Best Deals</a>
+			<a href="#">Alpha</a>
+			<a href="#">Internet</a>
+			<a href="#">TV</a>
+			<a href="#">Phone</a>
+			<a href="#">Support</a>
+			<a href="#">News</a>
+		</nav>
+		<nav id="contact">
+			<a href="#">Live Chat</a>
+			<a href="#">555-555-5555</a>
+			<a href="#">View Cart</a>
+		</nav>
   </div>
 
   <div id="container1">
     <div id="graphic">
+			<p>BUY MY STUFF RIGHT MEOW!</p>
+			<a href="#" id="calltoaction">RIGHT HERE!</a>
     </div>
   </div>
 
   <div id="container2">
-    <div id="column1"></div>
-    <div id="column2"></div>
-    <div id="column3"></div>
+    <div id="column1">
+			<p>Column #1 Text (or picture)</p>
+		</div>
+    <div id="column2">
+			<p>Column #2 Text (or picture)</p>
+		</div>
+    <div id="column3">
+			<p>Column #3 Text (or picture)</p>
+		</div>
   </div>
 
 
