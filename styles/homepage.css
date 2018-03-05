@@ -124,6 +124,15 @@ p img {
 	font-size: 150%;
 }
 
+#footer a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer a:hover,a:active {
+	color: lightblue;
+}
+
 /* add some change list styling */
 
 #changes {
