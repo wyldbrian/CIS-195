@@ -1,0 +1,93 @@
+* {
+  margin: 0; padding: 0; border: 0; box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#menu1nav {
+  width: 651px;
+  height: 130.6px;
+  margin: 20px auto;
+}
+
+#menu1nav ul {
+  width: 651px;
+  height: 130.6px;;
+  list-style-type: none;
+}
+
+#menu1nav li {
+  width: 130.2px;
+  height: 130.6px;
+  float: left;
+}
+
+#menu1nav a {
+  display: block;
+  width: 130.2px;
+  height:  130.6px;
+  background-image: url(../images/final.png);
+  background-repeat: no-repeat;
+  border-top: 5px solid green;
+  border-bottom: 5px solid green;
+}
+
+#pot { background-position: 0% 0%; }
+#pot:hover { background-position: 0% 97.5%; }
+#pot:active { background-position: 0% 48.7%; }
+
+#smallplant { background-position: 25% 0%; }
+#smallplant:hover { background-position: 25% 97.5%; }
+#smallplant:active { background-position: 25% 48.7%; }
+
+#bigplant { background-position: 50% 0%; }
+#bigplant:hover { background-position: 50% 97.5%; }
+#bigplant:active { background-position: 50% 48.7%; }
+
+#smalltree { background-position: 75% 0%; }
+#smalltree:hover { background-position: 75% 97.5%; }
+#smalltree:active { background-position: 75% 48.7%; }
+
+#bigtree { background-position: 100% 0%; }
+#bigtree:hover { background-position: 100% 97.5%; }
+#bigtree:active { background-position: 100% 48.7%; }
+
+#menu2nav {
+  width: 51.25px;
+  height: 206px;
+  margin: 20px auto;
+}
+
+#menu2nav ul {
+  width: 51.25px;
+  height: 206px;
+  list-style-type: none;
+}
+
+#menu2nav li {
+  width: 51.25px;
+  height: 51.5px;
+}
+
+#menu2nav a {
+  display: block;
+  width: 51.25px;
+  height:  51.5px;
+  background-image: url(../images/icons.gif);
+  background-repeat: no-repeat;
+}
+
+#bike { background-position: 0px 0px; }
+#bike:hover { background-position: 0px -51.25px; }
+
+#plane { background-position: -51.25px 0px; }
+#plane:hover { background-position: -51.25px -51.25px; }
+
+#people { background-position: -102.5px 0px; }
+#people:hover { background-position: -102.5px -51.25px; }
+
+#car { background-position: -153.75px 0px; }
+#car:hover { background-position: -153.75px -51.25px; }
