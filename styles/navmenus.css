@@ -7,6 +7,20 @@ h1 {
   margin: 20px auto;
 }
 
+h2 {
+  text-align: center;
+  font-family: verdana;
+  font-size: 0.9em;
+  margin: 20px auto;
+}
+
+div {
+  max-height: 500px;
+  max-width: 1250px;
+  border-bottom: 6px double darkgray;
+  margin: 0px auto;
+}
+
 #menu1nav {
   width: 651px;
   height: 130.6px;
@@ -91,3 +105,82 @@ h1 {
 
 #car { background-position: -153.75px 0px; }
 #car:hover { background-position: -153.75px -51.25px; }
+
+#menu3nav {
+  width: 1200px;
+  height: 120px;
+  margin: 20px auto;
+  background-color: red;
+}
+
+#menu3nav ul {
+  width: 1200px;
+  height: 50px;
+  padding-top: 70px;
+  list-style-type: none;
+}
+
+#menu3nav li {
+  width: 120px;
+  height: 50px;
+  float: left;
+}
+
+#menu3nav a {
+  display: block;
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
+
+#menu3nav a:hover {
+  background-color: red;
+}
+
+#menu4nav {
+  width: 1200px;
+  height: 120px;
+  margin: 20px auto;
+  background-color: black;
+}
+
+#menu4nav ul {
+  width: 1200px;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  list-style-type: none;
+}
+
+#menu4nav li {
+  height: 30px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+  border-left: 1px solid gray;
+}
+
+#menu4nav a {
+  display: block;
+  height: 25px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  line-height: 25px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#menu4nav a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5%;
+}
