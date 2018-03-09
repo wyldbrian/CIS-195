@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Table Practice/Participation</title>
+
+	<meta name="author" content="Brian Spaulding">
+	<meta name="description" content="Table Practice/Participation">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <style>
+  * {
+    margin: 0; padding: 0; border: 0; box-sizing: border-box;
+  }
+
+  body {
+    background-color: #000;
+    color: #ABC;
+    font-family: verdana;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 10px;
+  }
+
+  table.standard-table {
+    border: 2px solid yellow;
+    width: 80%; margin: 20px auto;
+    border-collapse: collapse;
+  }
+
+  .standard-table th {
+    background-color: orange;
+    color: #FEE;
+    border: 2px solid #222;
+    font-size: 11pt;
+    width: 10%;
+    padding: 1em;
+  }
+
+  .standard-table td {
+    border: 2px solid #222;
+    width: 12%;
+    background-color: #CCC;
+    text-align: center;
+    color: #222;
+    vertical-align: top;
+    font-size: 90%;
+  }
+
+  th[scope=row] {
+    width: 20px; min-height: 120px;
+    padding: .2em;
+    height: 120px;
+  }
+
+  th[scope=row] span {
+    display: block;
+    transform: rotate(-90deg);
+  }
+
+  tr:nth-child(odd) td {
+    background-color: #EEE;
+  }
+
+  </style>
+
+</head>
+
+<body>
+
+<h1> Web Tables Practice and Participation </h1>
+
+<table class="standard-table">
+<tr>
+  <th>&nbsp;</th> <th scope="col">Monday</th> <th scope="col">Tuesday</th> <th scope="col">Wednesday</th> <th scope="col">Thursday</th> <th scope="col">Friday</th> <th scope="col" colspan="2">Weekend</th>
+</tr>
+<tr>
+  <th scope="row"><span>Breakfast</span></th> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td>
+</tr>
+<tr>
+  <th scope="row"><span>Snack 1</span></th> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td>
+</tr>
+<tr>
+  <th scope="row"><span>Lunch</span></th> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td>
+</tr>
+<tr>
+  <th scope="row"><span>Snack 2</span></th> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td>
+</tr>
+<tr>
+  <th scope="row" rowspan="2"><span>Dinner <br>Options</span></th> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td>
+</tr>
+<tr>
+  <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td> <td>lorem ipsum adsfas<br>afsd fasd</td>
+</tr>
+
+</table>
+
+</body>
+
+</html>
