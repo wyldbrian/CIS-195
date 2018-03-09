@@ -1,57 +1,54 @@
+* {
+	margin: 0; padding: 0; border: 0; box-sizing: border-box;
+}
+
 body {
 	background-color: #222222;
 	color: #BBCDE5;
 	font-family: verdana;
 }
 
-a {
-	color: #1C5D99;
-	font-weight: bold;
-}
+/* styling for the header */
 
-header {
+.header {
 	background-color: #639FAB;
 	border: 1px solid #000;
 	text-align: center;
+	height: 100px;
 }
 
-h1, h2 {
+.header h1 {
 	color: #FFFFFF;
-	font-weight: bold;
 	text-shadow: 4px 3px gray;
 	letter-spacing: 3px;
 }
 
-h1 span {
+.header h1 span {
 	color: #F6D8AE;
 	letter-spacing: 2px;
 }
 
-figure {
+/* styling for the main profile image */
+
+.profpic {
 	float: right;
+}
+
+.profpic img {
 	border: 6px solid #000;
 	border-radius: 50%;
 }
 
-figure img {
-	border-radius: 50%;
-}
+/* styling for the bio section */
 
-p {
+.bio {
 	line-height: 1.5em;
 	margin-left: 1.5em;
 }
 
-p img {
-	border: 10px solid #000;
-	width: 50%;
-	display: block;
-	margin: 20px 0;
-}
-
 /* add strava widget */
 
-#strava {
+.strava {
 	text-align: right;
 	margin-top: 100px;
 	margin-bottom: 50px;
@@ -60,81 +57,55 @@ p img {
 
 /* setup a assignment nav */
 
-#menu {
+.menu {
 	padding-top: 25px;
   width: 225px;
   max-height: 750px;
 }
 
-#menu ul {
+.menu ul {
   width: 200px;
   max-height: 750px;;
   list-style-type: none;
 }
 
-#menu li {
+.menu li {
   width: 225px;
   height: 30px;
 	margin: 10px;
 }
 
-#menu a {
+.menu a {
   display: block;
   width: 225px;
   height:  30px;
 	text-align: center;
-	line-height: 30px;
+	line-height: 26px;
 	border: 2px solid white;
 	text-decoration: none;
 	background-color: black;
+	font-weight: bold;
 	color: white;
 	opacity: 0.9;
 }
 
-#menu a:hover {
+.menu a:hover {
 	background-color: white;
 	color: black;
 	border: 2px solid black;
 	opacity: 0.9;
 }
 
-#menu a:active {
+.menu a:active {
 	background-color: white;
 	color: black;
 	border: 2px solid black;
 	opacity: 0.4;
 }
 
-
-/* setup a fixed footer */
-
-#footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	height: 25px;
-	width: 100%;
-	background-color: #404040;
-	color: white;
-	text-align: center;
-	word-spacing: 50px;
-	padding: 10px;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 150%;
-}
-
-#footer a {
-	text-decoration: none;
-	color: white;
-}
-
-#footer a:hover,a:active {
-	color: lightblue;
-}
-
 /* add some change list styling */
 
-#changes {
+.changes {
 	padding-top: 25px;
 	line-height: 1.5em;
 	margin-left: 1.5em;
@@ -145,11 +116,38 @@ p img {
 	float: left;
 }
 
-#changes h3 {
+.changes h3 {
 	text-shadow: 2px 2px gray;
 	font-size: 120%;
 }
 
-#changes ul {
+.changes ul {
 	list-style-type: square;
+}
+
+/* setup a fixed footer */
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #404040;
+	color: white;
+	text-align: center;
+	word-spacing: 50px;
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer a:hover,a:active {
+	color: lightblue;
 }
