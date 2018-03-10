@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: #1a1a1a;
 	font-family: verdana;
 }
 
@@ -13,6 +13,7 @@ body {
 	width: 80%;
 	margin: 15px auto;
 	background-color: #222222;
+	background: linear-gradient(to bottom right,#8B8D8D, black);
 	border-radius: 25px;
 }
 
@@ -182,7 +183,7 @@ body {
 	bottom: 0;
 	height: 50px;
 	width: 100%;
-	background-color: #404040;
+	background: linear-gradient(to left,#8B8D8D, black);
 	color: white;
 	text-align: center;
 	word-spacing: 50px;
