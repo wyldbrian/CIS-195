@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(0, 0, 0, 0.6);
 	font-family: verdana;
 }
 
@@ -13,6 +13,7 @@ body {
 	width: 80%;
 	margin: 15px auto;
 	background-color: #222222;
+	border-radius: 25px;
 }
 
 /* style our flex boxes */
@@ -30,6 +31,14 @@ body {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	padding-top: 25px;
+}
+
+.flex3 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 	margin-bottom: 75px;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -39,20 +48,26 @@ body {
 
 .header {
 	background-color: #639FAB;
-	border: 1px solid #000;
 	text-align: center;
 	height: 100px;
+	width: 80%;
+	border-radius: 15px;
 }
 
 .header h1 {
 	color: #FFFFFF;
 	text-shadow: 4px 3px gray;
 	letter-spacing: 3px;
+	line-height: 50px;
 }
 
 .header h1 span {
 	color: #F6D8AE;
 	letter-spacing: 2px;
+}
+
+.header h2 {
+	line-height: 50px;
 }
 
 /* styling for the main profile image */
@@ -75,7 +90,7 @@ body {
 	line-height: 1.5em;
 	margin: 10px auto;
 	color: #BBCDE5;
-	width: 90%;
+	width: 70%;
 }
 
 /* setup a assignment nav */
