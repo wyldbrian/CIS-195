@@ -3,8 +3,7 @@
 }
 
 body {
-	background-color: #222222;
-	color: #BBCDE5;
+	background-color: rgba(0, 0, 0, 0.9);
 	font-family: verdana;
 }
 
@@ -13,6 +12,27 @@ body {
 .container {
 	width: 80%;
 	margin: 15px auto;
+	background-color: #222222;
+}
+
+/* style our flex boxes */
+
+.flex1 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding-top: 25px;
+}
+
+.flex2 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 75px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 /* styling for the header */
@@ -38,8 +58,7 @@ body {
 /* styling for the main profile image */
 
 .profpic {
-	float: right;
-	width: 50%;
+	width: 40%;
 }
 
 .profpic img {
@@ -55,18 +74,8 @@ body {
 .bio {
 	line-height: 1.5em;
 	margin: 10px auto;
-}
-
-/* add strava widget */
-
-.strava {
-	width: 30%;
-	float: left;
-}
-
-.strava iframe {
-	margin: 0px auto;
-	display: block;
+	color: #BBCDE5;
+	width: 90%;
 }
 
 /* setup a assignment nav */
@@ -74,7 +83,7 @@ body {
 .menu {
 	padding-top: 25px;
   max-height: 750px;
-	width: 50%;
+	width: 40%;
 }
 
 .menu ul {
@@ -123,15 +132,11 @@ body {
 /* add some change list styling */
 
 .changes {
-	padding-top: 25px;
 	line-height: 1.5em;
-	margin-left: 1.5em;
 	font-family: cursive;
 	font-style: italic;
-	width: 50%;
 	color: white;
-	margin-bottom: 75px;
-	float: left;
+	width: 40%;
 }
 
 .changes h3 {
@@ -141,6 +146,17 @@ body {
 
 .changes ul {
 	list-style-type: square;
+}
+
+/* add strava widget */
+
+.strava {
+	width: 30%;
+}
+
+.strava iframe {
+	margin: 0px auto;
+	display: block;
 }
 
 /* setup a fixed footer */
