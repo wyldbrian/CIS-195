@@ -8,6 +8,13 @@ body {
 	font-family: verdana;
 }
 
+/* styling for the container */
+
+.container {
+	width: 80%;
+	margin: 15px auto;
+}
+
 /* styling for the header */
 
 .header {
@@ -32,41 +39,51 @@ body {
 
 .profpic {
 	float: right;
+	width: 50%;
 }
 
 .profpic img {
 	border: 6px solid #000;
 	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 /* styling for the bio section */
 
 .bio {
 	line-height: 1.5em;
-	margin-left: 1.5em;
+	margin: 10px auto;
 }
 
 /* add strava widget */
 
 .strava {
-	text-align: right;
-	margin-top: 100px;
-	margin-bottom: 50px;
-	margin-right: 100px;
+	width: 30%;
+	float: left;
+}
+
+.strava iframe {
+	margin: 0px auto;
+	display: block;
 }
 
 /* setup a assignment nav */
 
 .menu {
 	padding-top: 25px;
-  width: 225px;
   max-height: 750px;
+	width: 50%;
 }
 
 .menu ul {
   width: 200px;
   max-height: 750px;;
   list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .menu li {
@@ -111,6 +128,7 @@ body {
 	margin-left: 1.5em;
 	font-family: cursive;
 	font-style: italic;
+	width: 50%;
 	color: white;
 	margin-bottom: 75px;
 	float: left;
