@@ -4,6 +4,8 @@
 
 body {
 	background: linear-gradient(to top left,#3b5998, darkgray);
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 /* styling for the container */
@@ -175,7 +177,6 @@ body {
 .footer {
   width: 80%;
   height: 50px;
-  margin: 0px auto;
   background-color: black;
 }
 
