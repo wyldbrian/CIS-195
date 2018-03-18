@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 * {
 	margin: 0; padding: 0; border: 0; box-sizing: border-box;
 }
 
 body {
 	background-color: #1a1a1a;
-	font-family: verdana;
+	font-family: Raleway;
 }
 
 /* styling for the container */
@@ -58,8 +60,8 @@ body {
 .header h1 {
 	color: #FFFFFF;
 	text-shadow: 4px 3px gray;
-	letter-spacing: 3px;
 	line-height: 50px;
+	letter-spacing: 1px;
 }
 
 .header h1 span {
@@ -80,8 +82,7 @@ body {
 .profpic img {
 	border: 6px solid #000;
 	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	display: block;
 }
 
@@ -89,7 +90,7 @@ body {
 
 .bio {
 	line-height: 1.5em;
-	margin: 10px auto;
+	margin: 25px auto;
 	color: #BBCDE5;
 	width: 70%;
 }
@@ -97,7 +98,6 @@ body {
 /* setup a assignment nav */
 
 .menu {
-	padding-top: 25px;
   max-height: 750px;
 	width: 40%;
 }
