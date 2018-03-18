@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+	margin: 0; padding: 0; border: 0; box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom right,#4d4d4d, black);
+}
+
+.container {
+  width: 80%; min-height: 1080px;
+  background-color: darkgray;
+  margin: 25px auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 15px;
+}
+
+.whitespace {
+  width: 90%; min-height: 100px;
+  background-color: white;
+  margin: 25px auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-radius: 10px;
+}
+
+.whitespace h2 {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 4px double black;
+}
+
+.whitespace p {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.whitespace p:nth-of-type(1) {
+}
+
+.color {
+  width: 90%; min-height: 250px;
+  background-color: white;
+  margin: 25px auto;
+  background-image: url(../images/field2_gray.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.color h2 {
+  width: 40%;
+  margin: 25px auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border: 2px solid black;
+  background-color: darkgray;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
+.color p {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: black;
+  font-family: verdana;
+}
+
+.calltoaction {
+  display: block;
+  width: 180px; height: 46px;
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: red;
+  opacity: 0.8;
+  color: black;
+  line-height: 46px;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.imagetext {
+  width: 90%; min-height: 250px;
+  background-color: white;
+  margin: 25px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.7)),url(../images/tea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.imagetext h2 {
+  width: 20%;
+  background-color: gray;
+  opacity: 0.8;
+  color: white;
+  margin: 25px auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.imagetext p {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: white;
+  font-family: verdana;
+}
+
+.goodfont {
+  width: 90%; min-height: 250px;
+  background-color: white;
+  margin: 25px auto;
+  border-radius: 10px;
+  padding-top: 10px;
+  position: relative;
+  font-family: Raleway;
+}
+
+.goodfont p, h2, h1, h3 {
+  width: 40%;
+  margin: 25px auto;
+  text-align: center;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
