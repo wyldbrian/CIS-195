@@ -52,7 +52,7 @@ body {
 .header {
 	background-color: #639FAB;
 	text-align: center;
-	height: 100px;
+	min-height: 100px;
 	width: 80%;
 	border-radius: 15px;
 }
