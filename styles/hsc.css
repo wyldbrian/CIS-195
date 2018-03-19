@@ -6,8 +6,10 @@
 
 body {
 	background: linear-gradient(to top left,#3b5998, darkgray);
+	background-repeat: no-repeat;
   padding-bottom: 25px;
   padding-top: 25px;
+	min-width: 720px;
 }
 
 /* styling for the container */
@@ -190,6 +192,7 @@ p {
 	width: 70%; margin: 25px auto;
 	border-collapse: collapse;
 	font-family: Raleway;
+	margin: auto;
 }
 
 .resource_table tr {
@@ -257,7 +260,18 @@ p {
 	padding-top: 25px;
 	margin: auto;
 	width: 90%;
+	min-height: 150px;
 	clear: left;
+}
+
+.admins a {
+	display: block;
+	text-decoration: none;
+	font-size: 110%;
+	text-align: center;
+	font-weight: bold;
+	min-height: 50px;
+	line-height: 50px;
 }
 
 /* styling for the footer */
