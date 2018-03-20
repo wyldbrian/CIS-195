@@ -9,12 +9,11 @@ html {
 }
 
 body {
-	background: linear-gradient(to top left,#3b5998, darkgray);
+	background: linear-gradient(to top left,#3b5998, darkgray) fixed;
 	background-repeat: no-repeat;
   padding-bottom: 25px;
   padding-top: 25px;
 	min-width: 720px;
-	margin: 0;
 }
 
 /* styling for the container */
