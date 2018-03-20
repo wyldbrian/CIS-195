@@ -292,6 +292,9 @@ p {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	border: 4px solid white;
+	box-shadow: inset 0 0 15px #000000;
+	-webkit-box-shadow: inset 0 0 15px #000000;
+	-moz-box-shadow: inset 0 0 15px #000000;
 }
 
 /* styling for the projects inside the scrollbox */
@@ -300,34 +303,35 @@ p {
 	min-height: 300px;
 	width: 90%;
 	margin: 25px auto;
-	border: 2px solid white;
+	border: 2px solid white; border-radius: 10px;
 	font-family: Raleway;
+	text-align: center;
 	color: white;
+	background: linear-gradient(to top left,#8B8D8D, black);
 }
 
 .projects h1, h2 {
-	padding-left: 15px;
 	padding-top: 15px;
 }
 
 .projects p {
 	width: 80%;
-	padding-left: 15px;
-	padding-top: 15px;
-	text-align: left;
+	text-align: center;
+	margin: 25px auto;
 }
 
 .projects img {
 	display: block;
 	max-width: 50%;
 	margin: 15px;
+	border-radius: 5px;
 }
 
 .imgflex {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: left;
+	justify-content: center;
 }
 
 /* styling for the footer */
