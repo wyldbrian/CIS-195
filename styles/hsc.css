@@ -296,6 +296,19 @@ p {
 	-moz-box-shadow: inset 0 0 15px #000000;
 }
 
+.scrollbox::-webkit-scrollbar {
+    width: 20px;
+}
+
+.scrollbox::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px grey;
+}
+
+.scrollbox::-webkit-scrollbar-thumb {
+    background: #ccddff;
+		border-radius: 10px;
+}
+
 /* styling for the projects inside the scrollbox */
 
 .projects {
