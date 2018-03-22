@@ -1,0 +1,205 @@
+* {
+	margin: 0; padding: 0; border: 0; box-sizing: border-box;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  min-height: 120px;
+  background-color: #c68c53;
+  position: relative;
+}
+
+#logo {
+  margin: 10px;
+  display: block;
+  float: left;
+}
+
+#menu {
+  height: 80px;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+
+#menu ul {
+  height: 80px;
+}
+
+#menu li {
+  height: 80px;
+  float: left;
+  list-style-type: none;
+}
+
+#menu a {
+  display: block;
+  height:  80px;
+  width: 80px;
+  background-color: #333333;
+  background-image: url(gearfix-nav.png);
+  background-size: 160px 70px;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  margin-left: 5px;
+  border-radius: 5px;
+  float: left;
+  text-align: center;
+  line-height: 135px;
+  color: white;
+  font-weight: bold;
+}
+
+#menu a:hover {
+  background-position: 0% 0%;
+  background-color: #1a1a1a;
+}
+
+
+#form {
+  position: absolute;
+  right: 1%;
+  top: 15%;
+}
+
+.imagecontainer1 {
+  width: 820px;
+  height: 280px;
+  float: left;
+}
+
+.imagecontainer2 {
+  width: 820px;
+  height: 280px;
+}
+
+#image1 {
+  background-image: url(gearfix-skier.jpg);
+  background-size: 820px 480px;
+  background-position: 0% 0%;
+  float: left;
+  height: 280px;
+  width: 273px;
+  background-color: lightblue;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+#image2 {
+  background-image: url(gearfix-skier.jpg);
+  background-size: 820px 480px;
+  background-position: 50% 0%;
+  float: left;
+  height: 280px;
+  width: 273px;
+  background-color: lightblue;
+  border: 5px solid white;
+}
+
+#image3 {
+  background-image: url(gearfix-skier.jpg);
+  background-size: 820px 480px;
+  background-position: 100% 0%;
+  float: left;
+  height: 280px;
+  width: 273px;
+  background-color: lightblue;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+#image4 {
+  background-image: url(gearfix-skier.jpg);
+  background-size: 820px 480px;
+  background-position: 0% 100%;
+  float: left;
+  height: 200px;
+  width: 273px;
+  background-color: lightblue;
+  border-bottom: 5px solid white;
+}
+
+#image5 {
+  background-image: url(gearfix-skier.jpg);
+  background-size: 820px 480px;
+  background-position: 50% 100%;
+  float: left;
+  height: 200px;
+  width: 273px;
+  background-color: lightblue;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+#image6 {
+  background-image: url(gearfix-skier.jpg);
+  background-size: 820px 480px;
+  background-position: 100% 100%;
+  float: left;
+  height: 200px;
+  width: 273px;
+  background-color: lightblue;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+.sidebar {
+  background-color: #005c99;
+  width: 280px;
+  height: 480px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  float: right;
+}
+
+.sidebar h2 {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.sidebar h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.sidebar img {
+  display: block;
+  margin: auto;
+}
+
+.sidebar table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 15px auto;
+}
+
+.sidebar th {
+  border: 2px solid black;
+  padding: 3px;
+}
+
+.sidebar td {
+  border: 2px solid black;
+  padding: 3px;
+}
+
+.footer {
+  width: 100%;
+  min-height: 220px;
+  background-color: #c68c53;
+  clear: right;
+  text-align: center;
+}
