@@ -201,6 +201,8 @@ p {
 	width: 100%; margin: auto;
 	border-collapse: collapse;
 	font-family: Raleway;
+	table-layout: fixed;
+	word-wrap: break-word;
 }
 
 .resource_table tr {
